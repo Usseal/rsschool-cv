@@ -1,1 +1,69 @@
+@font-face {
+    font-family: Ubuntu;
+     src: url("assets/fonts/Ubuntu-Light.ttf");
+   }
 
+   * {
+    box-sizing: border-box;
+    font-family: Ubuntu;
+  }
+    h1 {
+      font-size: 45px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 36px;
+      margin: 50px 50px 0px 50px;
+      background-color: aqua;
+      text-align: center;
+    }
+    p {
+      font-size: 24px;
+      margin: 50px 50px 0px 50px;
+    }
+    nav {
+      text-align: left;
+    }
+     li {
+      font-size: 24px;
+      margin: 0px 0px 0px 0px;
+    }
+    img {
+      margin: 10px 10px 10px 10px;
+    }
+    .centr {
+      text-align: center;
+    }
+    #codeexample {
+      background-color: black;
+      color:aqua;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .nav-list {
+      align-items: center;
+      list-style: none;
+      text-align: center;
+    }
+    .nav-link {
+      padding: 0 20px;
+      line-height: 50px;
+    }
+    .section {
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      .section {
+        width: 100%;
+      }
+    }
+    #photo {
+      border-radius: 300px;
+    }
